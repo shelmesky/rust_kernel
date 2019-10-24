@@ -36,3 +36,34 @@ registry = "https://github.com/rust-lang/crates.io-index"
 replace-with = 'ustc'
 [source.ustc]
 registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+
+
+
+
+
+rustup安装工具链:
+rustup install stable
+
+
+
+
+
+
+rustup安装nightly版:
+rustup override add nightly
+
+
+
+
+
+
+rustup安装源码：
+rustup component add rust-src
+
+
+
+
+
+rustup安装llvm工具:
+rustup component add llvm-tools-preview
+
